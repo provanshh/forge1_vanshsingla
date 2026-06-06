@@ -32,3 +32,8 @@
 {"ts":"2026-06-06T10:07:59.844Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"PreToolUse","tool":"Glob","command":"","exit_code":"","output_preview":""}
 {"ts":"2026-06-06T10:07:59.931Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"PostToolUse","tool":"Glob","command":"","exit_code":"","output_preview":""}
 {"ts":"2026-06-06T10:08:21.509Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"Stop","tool":"","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:10:05.221Z","session_id":"0abcd603-70f0-4a6f-907c-b0e6c0034f4b","hook":"SessionStart","tool":"","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:10:16.331Z","session_id":"0abcd603-70f0-4a6f-907c-b0e6c0034f4b","hook":"UserPromptSubmit","tool":"","command":"run python run.py ../sample-export/ --no-dashboard --no-fixes and show me the result","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:12:13.819Z","session_id":"0abcd603-70f0-4a6f-907c-b0e6c0034f4b","hook":"PreToolUse","tool":"PowerShell","command":"python run.py ../sample-export/ --no-dashboard --no-fixes","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:12:18.733Z","session_id":"0abcd603-70f0-4a6f-907c-b0e6c0034f4b","hook":"PostToolUse","tool":"PowerShell","command":"python run.py ../sample-export/ --no-dashboard --no-fixes","exit_code":"","output_preview":"[seo] loaded 456 URLs from ../sample-export/\r\r\n[seo] detected 12 issue types\r\r\n\r\r\n=== SEO AUDIT RESULT ===\r\r\nSite         : nmgtechnologies.com  (456 URLs)\r\r\nTotal issues : 12  (High 2 / Medium 5 / Lo"}
+{"ts":"2026-06-06T10:16:35.515Z","session_id":"0abcd603-70f0-4a6f-907c-b0e6c0034f4b","hook":"Stop","tool":"","command":"","exit_code":"","output_preview":""}
