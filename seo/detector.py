@@ -164,6 +164,13 @@ def detect(rows: list[dict]) -> list[dict]:
     add("slow_page", "Low",
         [r["Address"] for r in rows if is_200(r) and _float(r.get("Response Time")) > 1.0],
         "Pages taking over 1 second to respond.")
+    
+    # --- Missing image alt text ---
+    add("missing_image_alt", "Medium",
+        [r["Address"] for r in rows
+         if "image" in (r.get("Content Type", "") or "").lower()
+         and not (r.get("Alt Text", "") or "").strip()],
+        "Images missing alt text — impacts accessibility and image SEO.")
 
     return issues
 
