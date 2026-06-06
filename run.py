@@ -39,6 +39,7 @@ def main():
     # 3. AI fixes (skip with --no-fixes or if ollama not running)
     titles_fixes = []
     redirect_map = []
+    meta_fixes = []
     if not args.no_fixes:
         print("[seo] running AI fixes (title rewrites + redirect map)...", flush=True)
         try:
