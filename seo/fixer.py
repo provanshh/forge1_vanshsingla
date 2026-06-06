@@ -6,7 +6,7 @@ from __future__ import annotations
 import json, urllib.request, urllib.error
 
 OLLAMA_URL = "http://localhost:11434/api/generate"
-MODEL = "gemma3:4b"
+MODEL = "qwen2.5:0.5b"
 
 
 def _ask(prompt: str) -> str:

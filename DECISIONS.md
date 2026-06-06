@@ -32,3 +32,14 @@ Format:
 ## 12:15 - Model setup
 - 16GB RAM, using gemma3:4b via ollama cloud
 - Set OLLAMA_CONTEXT_LENGTH=65536
+
+## 12:30 - Full pipeline verified end to end
+- Dashboard live at localhost:7700, all 12 issue types showing
+- AI fixes running: 20 title rewrites, 6 redirect entries
+- Fix CSVs writing to outputs/fixes_titles.csv and fixes_redirects.csv
+- Duration: 40.9s on sample export
+
+## 12:35 - Ollama disk space issue
+- C: drive full, moved OLLAMA_MODELS to D:\ollama-models via setx
+- Using qwen2.5:0.5b (397MB) instead of gemma3:4b (3.3GB)
+- Fix calls fail gracefully with error message when model unavailable
