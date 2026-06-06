@@ -1,0 +1,7 @@
+{"event":"SessionStart","ts":"2026-06-06T12:08:00","note":"Forge Sprint 01 build started"}
+{"event":"SubagentStop","ts":"2026-06-06T12:08:45","note":"detector.py - 10 rules added"}
+{"event":"PostToolUse","ts":"2026-06-06T12:25:52","note":"fixer.py created - AI title rewriter"}
+{"event":"PostToolUse","ts":"2026-06-06T12:29:37","note":"run.py wired with fixer"}
+{"event":"PostToolUse","ts":"2026-06-06T12:35:25","note":"export_fixes.py - champion CSV artifacts"}
+{"event":"PostToolUse","ts":"2026-06-06T12:38:21","note":"full pipeline verified - 12 issues, 20 fixes"}
+{"event":"Stop","ts":"2026-06-06T13:27:00","note":"qwen2.5:0.5b verified, real AI titles confirmed"}
