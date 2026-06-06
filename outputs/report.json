@@ -451,8 +451,140 @@
     }
   ],
   "fixes": {
-    "titles": [],
-    "redirect_map": []
+    "titles": [
+      {
+        "url": "https://nmgtechnologies.com/services/custom-software-development/saas-development/",
+        "old": "SaaS App Development Services - Hire #1 SaaS Developers | NMG Technologies",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/solution/cloud-apps/",
+        "old": "Cloud Application Development Services - Cloud App Migration Company",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/tag/events/page/2",
+        "old": "Blog | Events (2)",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/industry/marketresearch",
+        "old": "IT Outsource Software, Web & Mobile App Development Company - NMG",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/nmg-to-participate-in-the-largest-tech-expo-in-the-middle-east-gitex-global-2023-dubai",
+        "old": "NMG to Participate in the Largest Tech Expo in the Middle East - GITEX Global 2023, Dubai",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/services/it-consulting/",
+        "old": "IT Consulting Services - Best IT Consultant Firm For Your Business",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/company/careers/",
+        "old": "Careers - Job Opportunity for Web, Mobile, and Software Developers | NMG Technologies",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/sitemap",
+        "old": "Sitemap - NMG Technologies",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/wordpress-website-perfect-solution-small-business",
+        "old": "Why WordPress Website Is The Perfect Solution For Your Small Business",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/nmg-to-participate-in-the-largest-tech-expo-in-the-middle-east-gitex-global-2022-dubai",
+        "old": "NMG to Participate in the Largest Tech Expo in the Middle East - GITEX Global 2022, Dubai",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/working-from-home-during-the-coronavirus-lockdown",
+        "old": "How to Manage Work from home during the coronavirus lockdown | NMG",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/services/custom-software-development/",
+        "old": "Best Custom Software Development Service Company - 2019 | NMG Technologies.",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/nmg-technologies-participated-in-softwave-2023-the-republic-of-korea-software-exhibition",
+        "old": "NMG Technologies Participated in Softwave 2023, The Republic of Korea Software Exhibition",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/tag/marketing",
+        "old": "Blog | Marketing",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/ai-optimized-ecommerce-solutions",
+        "old": "AI-Powered Ecommerce | Advanced AI Solutions for Online Retail",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/resources/library/",
+        "old": "Most Resourceful Content for Businesses to Get Started | NMG Technologies",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/industry/staffing",
+        "old": "IT Outsource Software, Web & Mobile App Development Company - NMG",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/solution/fintech/",
+        "old": "Fintech Apps & Software Development Services - Hire Fintech Developers",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/blog/how-to-build-an-app-like-uber",
+        "old": "How To Build an App like Uber - Mobile App Development | NMG",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      },
+      {
+        "url": "https://nmgtechnologies.com/services/mobile-application-development/ios-app-development/",
+        "old": "iPhone App Development Company - Hire iOS App Developers | NMG Technologies",
+        "new": "ERROR: HTTP Error 404: Not Found"
+      }
+    ],
+    "redirect_map": [
+      {
+        "from": "https://nmgtechnologies.com/hs-fs/hubfs/B-W_icon.png.png?width=101&height=100&name=B-W_icon.png.png",
+        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
+        "reason": "404 page \u2014 redirected to closest matching live URL"
+      },
+      {
+        "from": "https://nmgtechnologies.com/hs-fs/hubfs/edtech.png.png?width=101&height=100&name=edtech.png.png",
+        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
+        "reason": "404 page \u2014 redirected to closest matching live URL"
+      },
+      {
+        "from": "https://nmgtechnologies.com/hs-fs/hubfs/fintech.png.png?width=101&height=100&name=fintech.png.png",
+        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
+        "reason": "404 page \u2014 redirected to closest matching live URL"
+      },
+      {
+        "from": "https://nmgtechnologies.com/hs-fs/hubfs/fintechgrey.png?width=122&height=80&name=fintechgrey.png",
+        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
+        "reason": "404 page \u2014 redirected to closest matching live URL"
+      },
+      {
+        "from": "https://nmgtechnologies.com/hs-fs/hubfs/glob.png.png?width=101&height=100&name=glob.png.png",
+        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
+        "reason": "404 page \u2014 redirected to closest matching live URL"
+      },
+      {
+        "from": "https://nmgtechnologies.com/hs-fs/hubfs/healthgrey.png?width=105&height=90&name=healthgrey.png",
+        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
+        "reason": "404 page \u2014 redirected to closest matching live URL"
+      }
+    ]
   },
   "recommendations": [
     "Fix 12 High-severity 'duplicate_title' issue(s) \u2014 affects 12 URLs.",
@@ -463,7 +595,7 @@
   ],
   "run_meta": {
     "model": "qwen3.5:9b",
-    "model_calls": 0,
-    "duration_sec": 0.0
+    "model_calls": 26,
+    "duration_sec": 40.9
   }
 }
