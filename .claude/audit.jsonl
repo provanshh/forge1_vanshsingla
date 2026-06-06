@@ -5,3 +5,30 @@
 {"event":"PostToolUse","ts":"2026-06-06T12:35:25","note":"export_fixes.py - champion CSV artifacts"}
 {"event":"PostToolUse","ts":"2026-06-06T12:38:21","note":"full pipeline verified - 12 issues, 20 fixes"}
 {"event":"Stop","ts":"2026-06-06T13:27:00","note":"qwen2.5:0.5b verified, real AI titles confirmed"}
+{"ts":"2026-06-06T09:41:36.003Z","hook":"SessionStart","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:43:12.885Z","hook":"UserPromptSubmit","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:43:46.878Z","hook":"PreToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:43:46.970Z","hook":"PostToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:44:33.892Z","hook":"PreToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:45:15.293Z","hook":"PostToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:45:37.347Z","hook":"PreToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:45:37.459Z","hook":"PostToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:45:45.235Z","hook":"PreToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:45:45.270Z","hook":"PostToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:47:32.046Z","hook":"PreToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:50:04.859Z","hook":"PostToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:51:43.374Z","hook":"PreToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:51:49.191Z","hook":"PostToolUse","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:51:58.419Z","hook":"Stop","note":"jq not installed; install jq for full process capture"}
+{"ts":"2026-06-06T09:54:20.756Z","session_id":"38c4ef55-e14e-494e-a918-02ac34f21352","hook":"SessionStart","tool":"","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T09:54:24.700Z","session_id":"38c4ef55-e14e-494e-a918-02ac34f21352","hook":"UserPromptSubmit","tool":"","command":"Read the file outputs/report.json and verify all 12 issue types are correctly detected. Then check outputs/fixes_titles.csv has 20 entries.","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T09:54:31.130Z","session_id":"38c4ef55-e14e-494e-a918-02ac34f21352","hook":"PreToolUse","tool":"Read","command":"D:\\forge-sprint-01-starter\\seo-command-center\\outputs\\report.json","exit_code":"","output_preview":""}
+""}
+{"ts":"2026-06-06T09:54:31.399Z","session_id":"38c4ef55-e14e-494e-a918-02ac34f21352","hook":"PostToolUse","tool":"Read","command":"D:\\forge-sprint-01-starter\\seo-command-center\\outputs\\report.json","exit_code":"","output_preview":""}
+""}
+{"ts":"2026-06-06T09:54:54.932Z","session_id":"38c4ef55-e14e-494e-a918-02ac34f21352","hook":"Stop","tool":"","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:05:36.429Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"SessionStart","tool":"","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:05:41.315Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"UserPromptSubmit","tool":"","command":"list files in outputs/ folder","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:07:59.844Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"PreToolUse","tool":"Glob","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:07:59.931Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"PostToolUse","tool":"Glob","command":"","exit_code":"","output_preview":""}
+{"ts":"2026-06-06T10:08:21.509Z","session_id":"1895d5c8-eafa-4d6c-a6f6-20179543cf7b","hook":"Stop","tool":"","command":"","exit_code":"","output_preview":""}
