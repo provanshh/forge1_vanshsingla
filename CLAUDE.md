@@ -29,6 +29,12 @@ dashboard at localhost:7700, and outputs `outputs/report.json` + `outputs/report
 - Commit after each working step with a real message.
 - Run `python run.py sample-export/` to test end to end.
 
-## Things I have learned during the build (update this as you go)
-- (e.g. "SF leaves Title 1 blank on redirected URLs — must filter Status Code 200 first")
-- ...
+
+## Things I have learned during the build
+- SF leaves Title 1 blank on redirected URLs — must filter Status Code 200 first
+- Filter to text/html + indexable before title/meta checks
+- Used defaultdict for duplicate detection across titles, metas, H1s
+- redirect_chain: check if Redirect URL itself exists as a key in redirect_map
+- thin_content: _int(Word Count) < 200 on indexable pages only
+- Model: gemma3:4b via ollama cloud, context length 65536
+- Never feed raw CSV rows to model — detect in Python, use model only for rewrites
