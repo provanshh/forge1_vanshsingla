@@ -74,9 +74,18 @@ def main():
     print(f"Title fixes  : {len(titles_fixes)}")
     print(f"Redirect map : {len(redirect_map)} entries")
     print(f"Duration     : {server.RUN['duration_sec']}s")
+
+
+    # write fix CSV files (champion tier)
+    from seo.export_fixes import write_titles_csv, write_redirects_csv
+    if titles_fixes:
+        write_titles_csv(titles_fixes)
+        print(f"Wrote outputs/fixes_titles.csv")
+    if redirect_map:
+        write_redirects_csv(redirect_map)
+        print(f"Wrote outputs/fixes_redirects.csv")
     print("Wrote outputs/report.json and outputs/report.html")
 
 
 if __name__ == "__main__":
     main()
-    
