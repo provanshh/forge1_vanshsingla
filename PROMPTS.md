@@ -25,3 +25,9 @@ Format per entry:
 ## Key prompt pattern for title rewriting
 - One URL at a time to the model (never batch raw rows)
 - Ask for title only, no explanation, within 60 chars
+
+## Title rewrite prompt (fixer.py)
+- Prompt includes: URL path, H1, meta, current title
+- Rules: under 60 chars, no clickbait, reply with title only
+- Added validation loop: re-asks if title > 65 chars
+- Works one URL at a time to stay within free quota
