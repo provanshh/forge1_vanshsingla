@@ -22,4 +22,13 @@ Format:
 ---
 
 ## My log
-- `[--:--]` ...
+
+## 12:10 - Added all 10 missing detectors
+- Completed rulebook: title_too_short, missing_meta, duplicate_meta, meta_too_long,
+  missing_h1, duplicate_h1, redirect_chain, thin_content, non_indexable_but_linked, slow_page
+- Result: 4 issue types → 12 issue types detected
+- Used defaultdict pattern for duplicate detection (same as starter)
+
+## 12:15 - Model setup
+- 16GB RAM, using gemma3:4b via ollama cloud
+- Set OLLAMA_CONTEXT_LENGTH=65536

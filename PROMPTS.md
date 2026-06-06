@@ -22,6 +22,6 @@ Format per entry:
 
 ---
 
-## My prompts
-1. ...
-2. ...
+## Key prompt pattern for title rewriting
+- One URL at a time to the model (never batch raw rows)
+- Ask for title only, no explanation, within 60 chars
