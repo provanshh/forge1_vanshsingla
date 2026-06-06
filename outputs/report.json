@@ -451,140 +451,8 @@
     }
   ],
   "fixes": {
-    "titles": [
-      {
-        "url": "https://nmgtechnologies.com/blog/nmg-technologies-to-sponsor-and-exhibit-at-brighton-seo-2023-and-online-pr-show-2023",
-        "old": "NMG Technologies to Sponsor and Exhibit at Brighton SEO 2023 and Online PR Show 2023",
-        "new": "NMG Technologies Sponsors SEO & PR Expos in Brighton, UK 2023"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/nmg-to-participate-in-the-largest-tech-expo-in-the-middle-east-gitex-global-2023-dubai",
-        "old": "NMG to Participate in the Largest Tech Expo in the Middle East - GITEX Global 2023, Dubai",
-        "new": "NMG to Attend GITEX Global 2023, Dubai"
-      },
-      {
-        "url": "https://nmgtechnologies.com/company/about-us",
-        "old": "About NMG Technologies - Software, Web & Mobile App Development Company",
-        "new": "About NMG Technologies - Your Global Digital Solutions Partner"
-      },
-      {
-        "url": "https://nmgtechnologies.com/services/custom-software-development/",
-        "old": "Best Custom Software Development Service Company - 2019 | NMG Technologies.",
-        "new": "\"Best Custom Software Development Services | NMG Technologies\""
-      },
-      {
-        "url": "https://nmgtechnologies.com/solution/portals/",
-        "old": "Web Portal Development Services - Ecommerce Portal Apps for Business",
-        "new": "Web Portal Development Solutions - NMG Technologies"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog",
-        "old": "Blog",
-        "new": "Make Your Software Development Journey Easy!"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/tag/growth",
-        "old": "Blog | Growth",
-        "new": "\"Grow Your Software Development Journey - Simplify Your Process!\""
-      },
-      {
-        "url": "https://nmgtechnologies.com/download-developmental-checklist",
-        "old": "Download Web Development Checklist [Updated 2019] | NMG Technologies",
-        "new": "Download Successful App Development Checklist"
-      },
-      {
-        "url": "https://nmgtechnologies.com/ai-optimized-ecommerce-solutions",
-        "old": "AI-Powered Ecommerce | Advanced AI Solutions for Online Retail",
-        "new": "AI-Powered Ecommerce Solutions"
-      },
-      {
-        "url": "https://nmgtechnologies.com/services/custom-software-development/saas-development/",
-        "old": "SaaS App Development Services - Hire #1 SaaS Developers | NMG Technologies",
-        "new": "SaaS Development Services for Your Business Needs"
-      },
-      {
-        "url": "https://nmgtechnologies.com/success-stories",
-        "old": "Case Studies - Successful Case Studies of Client | NMG Technologies",
-        "new": "Success Stories: NMG Technologies' Most Interesting Client Cases"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/tag/web",
-        "old": "Blog | Web",
-        "new": "\"Web | Make Your Software Development Journey Easier\""
-      },
-      {
-        "url": "https://nmgtechnologies.com/success-stories/international-insurance",
-        "old": "IT Outsource Software, Web & Mobile App Development Company - NMG",
-        "new": "\"Global Insurance Solutions: NMG's International Insurance.com fo"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/tag/outsourcing",
-        "old": "Blog | Outsourcing",
-        "new": "\"Outsourcing Solutions for Simplified Software Development\""
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/tag/design",
-        "old": "Blog | Design",
-        "new": "Design - Easy Software Development Journey"
-      },
-      {
-        "url": "https://nmgtechnologies.com/services/custom-software-development/php-development/",
-        "old": "PHP Development Services - Hire PHP Web Developers | NMG Technologies",
-        "new": "PHP Development Services - NMG Technologies"
-      },
-      {
-        "url": "https://nmgtechnologies.com/services/mobile-application-development",
-        "old": "#1 Mobile App Development Services - Hire  App Developers | NMG Technologies",
-        "new": "App Developer Services | NMG Technologies"
-      },
-      {
-        "url": "https://nmgtechnologies.com/success-stories/competiscan",
-        "old": "IT Outsource Software, Web & Mobile App Development Company - NMG",
-        "new": "Competiscan: Elevating Industry Standards in Market Intelligence"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/advantages-of-asp-net-core",
-        "old": ".NET Core: 20 Advantages of Building Your Software in ASP.NET Core |",
-        "new": "ASP.NET Core: 20 Advantages for Rapid Application Development"
-      },
-      {
-        "url": "https://nmgtechnologies.com/blog/working-from-home-during-the-coronavirus-lockdown",
-        "old": "How to Manage Work from home during the coronavirus lockdown | NMG",
-        "new": "NMG's Work From Home Management During Coronavirus Lockdown"
-      }
-    ],
-    "redirect_map": [
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/B-W_icon.png.png?width=101&height=100&name=B-W_icon.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
-        "reason": "404 page \u2014 redirected to closest matching live URL"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/edtech.png.png?width=101&height=100&name=edtech.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
-        "reason": "404 page \u2014 redirected to closest matching live URL"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/fintech.png.png?width=101&height=100&name=fintech.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
-        "reason": "404 page \u2014 redirected to closest matching live URL"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/fintechgrey.png?width=122&height=80&name=fintechgrey.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
-        "reason": "404 page \u2014 redirected to closest matching live URL"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/glob.png.png?width=101&height=100&name=glob.png.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
-        "reason": "404 page \u2014 redirected to closest matching live URL"
-      },
-      {
-        "from": "https://nmgtechnologies.com/hs-fs/hubfs/healthgrey.png?width=105&height=90&name=healthgrey.png",
-        "to": "https://nmgtechnologies.com/hs-fs/hubfs/london-logo.png?width=168&height=50&name=london-logo.png",
-        "reason": "404 page \u2014 redirected to closest matching live URL"
-      }
-    ]
+    "titles": [],
+    "redirect_map": []
   },
   "recommendations": [
     "Fix 12 High-severity 'duplicate_title' issue(s) \u2014 affects 12 URLs.",
@@ -595,7 +463,7 @@
   ],
   "run_meta": {
     "model": "qwen3.5:9b",
-    "model_calls": 26,
-    "duration_sec": 100.6
+    "model_calls": 0,
+    "duration_sec": 0.0
   }
 }

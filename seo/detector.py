@@ -127,13 +127,27 @@ def detect(rows: list[dict]) -> list[dict]:
     add("duplicate_h1", "Low", dup_h1,
         "Pages sharing an identical H1 heading.")
 
-    # --- Redirect chains ---
-    redirect_map = {r["Address"]: (r.get("Redirect URL", "") or "").strip()
-                    for r in rows if 300 <= _int(r.get("Status Code")) <= 399}
-    chain_urls = [u for u, dest in redirect_map.items()
-                  if dest and dest in redirect_map]
+    # --- Redirect chains (multi-level + loops) ---
+    redirect_map_all = {
+        r["Address"]: (r.get("Redirect URL", "") or "").strip()
+        for r in rows if 300 <= _int(r.get("Status Code")) <= 399
+    }
+    chain_urls = []
+    for url in redirect_map_all:
+        visited = set()
+        current = url
+        while current in redirect_map_all:
+            if current in visited:
+                chain_urls.append(url)
+                break
+            visited.add(current)
+            current = redirect_map_all[current]
+        else:
+            dest = redirect_map_all.get(url, "")
+            if dest and dest in redirect_map_all:
+                chain_urls.append(url)
     add("redirect_chain", "High", chain_urls,
-        "URLs that redirect to another redirect (chain), hurting crawl efficiency.")
+        "URLs in a redirect chain or loop — hurts crawl efficiency.")
 
     # --- Thin content ---
     add("thin_content", "Low",
