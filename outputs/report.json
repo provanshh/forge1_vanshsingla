@@ -455,11 +455,11 @@
     "redirect_map": []
   },
   "recommendations": [
-    "Fix the 12 High-severity 'duplicate_title' issue(s) first.",
-    "Fix the 6 High-severity 'broken_link' issue(s) first.",
-    "Fix the 63 Medium-severity 'title_too_long' issue(s) first.",
-    "Fix the 7 Medium-severity 'redirect' issue(s) first.",
-    "Fix the 16 Medium-severity 'duplicate_meta_description' issue(s) first."
+    "Fix 12 High-severity 'duplicate_title' issue(s) \u2014 affects 12 URLs.",
+    "Fix 6 High-severity 'broken_link' issue(s) \u2014 affects 6 URLs.",
+    "Fix 63 Medium-severity 'title_too_long' issue(s) \u2014 affects 63 URLs.",
+    "Fix 7 Medium-severity 'redirect' issue(s) \u2014 affects 7 URLs.",
+    "Fix 16 Medium-severity 'duplicate_meta_description' issue(s) \u2014 affects 16 URLs."
   ],
   "run_meta": {
     "model": "qwen3.5:9b",
