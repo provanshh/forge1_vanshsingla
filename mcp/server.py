@@ -80,9 +80,9 @@ def _report_obj() -> dict:
     }
 
 
-def seo_set_fixes(titles=None, redirect_map=None) -> dict:
-    RUN["fixes"] = {"titles": titles or [], "redirect_map": redirect_map or []}
-    _emit("fixes", RUN["fixes"]); return {"titles": len(titles or []), "redirects": len(redirect_map or [])}
+def seo_set_fixes(titles=None, redirect_map=None, metas=None) -> dict:
+    RUN["fixes"] = {"titles": titles or [], "redirect_map": redirect_map or [], "metas": metas or []}
+    _emit("fixes", RUN["fixes"]); return {"titles": len(titles or []), "redirects": len(redirect_map or []), "metas": len(metas or [])}
 
 
 def seo_recommend(recommendations: list) -> dict:

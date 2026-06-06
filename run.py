@@ -11,8 +11,7 @@ sys.path.insert(0, HERE)
 import server
 
 sys.path.insert(0, os.path.join(HERE, "seo"))
-from fixer import rewrite_titles, build_redirect_map
-
+from fixer import rewrite_titles, rewrite_metas, build_redirect_map
 
 def main():
     ap = argparse.ArgumentParser()
@@ -45,12 +44,14 @@ def main():
         try:
             titles_fixes = rewrite_titles(issues, server.RUN["rows"])
             print(f"[seo] rewrote {len(titles_fixes)} titles", flush=True)
+            meta_fixes = rewrite_metas(issues, server.RUN["rows"])
+            print(f"[seo] rewrote {len(meta_fixes)} metas", flush=True)
             redirect_map = build_redirect_map(issues, server.RUN["rows"])
             print(f"[seo] built redirect map: {len(redirect_map)} entries", flush=True)
         except Exception as e:
             print(f"[seo] fix step skipped ({e})", flush=True)
-    server.seo_set_fixes(titles_fixes, redirect_map)
-    server.RUN["model_calls"] = len(titles_fixes) + len(redirect_map)
+    server.seo_set_fixes(titles_fixes, redirect_map, meta_fixes)
+    server.RUN["model_calls"] = len(titles_fixes) + len(meta_fixes) + len(redirect_map)
 
     # 4. recommendations
     sorted_issues = sorted(issues, key=lambda x: {"High":0,"Medium":1,"Low":2}.get(x["severity"],3))

@@ -112,3 +112,48 @@ def build_redirect_map(issues: list[dict], rows: list[dict]) -> list[dict]:
         })
 
     return redirect_map
+
+def rewrite_metas(issues: list[dict], rows: list[dict]) -> list[dict]:
+    """
+    For each URL with missing/long meta description, write a good one.
+    Returns list of {url, old, new} dicts.
+    """
+    bad_urls = set()
+    for issue in issues:
+        if issue["type"] in ("missing_meta_description", "meta_description_too_long"):
+            bad_urls.update(issue["affected_urls"])
+
+    if not bad_urls:
+        return []
+
+    row_map = {r["Address"]: r for r in rows}
+    fixes = []
+
+    for url in list(bad_urls)[:15]:
+        row = row_map.get(url, {})
+        old_meta = (row.get("Meta Description 1", "") or "").strip()
+        title = (row.get("Title 1", "") or "").strip()
+        h1 = (row.get("H1-1", "") or "").strip()
+        path = url.split("/")[-1].replace("-", " ").replace("_", " ").strip() or url
+
+        prompt = (
+            f"Write an SEO meta description for this webpage.\n"
+            f"URL path: {path}\n"
+            f"Page title: {title or 'not available'}\n"
+            f"H1 heading: {h1 or 'not available'}\n"
+            f"Current meta: {old_meta[:100] if old_meta else 'missing'}\n\n"
+            f"Rules: between 120-155 characters, descriptive, include a call to action.\n"
+            f"Reply with ONLY the meta description text, nothing else."
+        )
+
+        new_meta = _ask(prompt)
+
+        if len(new_meta) > 160 and not new_meta.startswith("ERROR"):
+            new_meta = _ask(
+                f"Shorten this meta description to under 155 characters. "
+                f"Reply with ONLY the text: {new_meta}"
+            )
+
+        fixes.append({"url": url, "old": old_meta, "new": new_meta[:155]})
+
+    return fixes
